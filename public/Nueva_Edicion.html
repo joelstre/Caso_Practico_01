@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Nota - Note Pad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <h1>Agregar Nueva Nota 😶‍🌫️</h1>
+
+    <div class="form-container">
+        <form id="form-nota">
+            <input type="text" id="titulo" class="form-control" placeholder="Título" required maxlength="200"><br>
+            <textarea id="contenido" class="form-control" placeholder="Texto" required></textarea><br>
+            <input type="text" id="etiquetas" class="form-control"><br>
+            <button type="submit" class="btn btn-success">Crear Nota</button>
+            <button type="button" id="btnLimpiar" class="btn btn-danger">Borrar</button>
+            <a href="Home.html" class="btn btn-primary">Volver</a>
+        </form>
+    </div>
+
+    <script defer src="Home.js"></script>
+</body>
+</html>
